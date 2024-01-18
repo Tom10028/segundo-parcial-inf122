@@ -1,0 +1,25 @@
+.ListaMetas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    width: 587px;
+    border-radius: 10px 0px 0px 10px;
+    border: var(--black);
+    height: 65px;   
+    color:var(--gray);
+    font-size: var(--md);    
+}
+.inputt button{
+    height: 70px;
+    width: 94px;
+    background-color: var(--green2);
+    font-size: var(--md);
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    font-weight: 400;
+    line-height: normal;
+}
+

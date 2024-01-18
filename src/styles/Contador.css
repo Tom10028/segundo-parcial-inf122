@@ -1,0 +1,22 @@
+.box{
+    display:  flex;
+    margin: 20px;
+    
+}
+.text-container{
+    width: 330px;
+    background-color: var(--white);
+    display: flex;
+    align-items: flex-start; 
+    font-size: var(--sm);   
+    border-radius: 5px;     
+    margin: 20px;
+}
+.text1{
+    color: var(--green);
+    margin-left: 10px;
+}
+.text2{
+    color: var(--red);
+    margin-left: 10px;
+}

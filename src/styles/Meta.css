@@ -1,0 +1,31 @@
+.Meta{
+    width: 687px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: var(--white);
+    margin-bottom: 10px;
+}
+.Meta button{
+    border: none;
+    background-color: var(--white);
+    cursor: pointer;
+}
+button :hover{
+    background-color: var(--gray);
+}
+.botones{
+    display: flex;
+    align-items: flex-end;
+}
+.Meta p{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 20px;
+    font-size: var(--md);
+}
+svg{
+    width: 20px;
+    height: 20px;
+}
